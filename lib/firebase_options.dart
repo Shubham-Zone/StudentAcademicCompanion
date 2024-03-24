@@ -44,38 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyD1wgZs2bRLq6fiop_nxCcgFcCxO7jIioY',
-    appId: '1:192145375261:web:a9c6ac6d86f1beba5186f4',
-    messagingSenderId: '192145375261',
-    projectId: 'ymca-all-in-one',
-    authDomain: 'ymca-all-in-one.firebaseapp.com',
-    storageBucket: 'ymca-all-in-one.appspot.com',
-    measurementId: 'G-2T4YZ7Q2HM',
+    apiKey: 'Your_web_api_key',
+    appId: 'Your_web_app_id',
+    messagingSenderId: 'Your_web_messaging_sender_id',
+    projectId: 'Your_web_project_id',
+    authDomain: 'Your_web_auth_domain',
+    storageBucket: 'Your_web_storage_bucket',
+    measurementId: 'Your_web_measurement_id',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDMNFVrgQcxOGwKaefuDWeO-sHdjvaQNHU',
-    appId: '1:192145375261:android:624090de7a25ff125186f4',
-    messagingSenderId: '192145375261',
-    projectId: 'ymca-all-in-one',
-    storageBucket: 'ymca-all-in-one.appspot.com',
+    apiKey: 'Your_android_api_key',
+    appId: 'Your_android_app_id',
+    messagingSenderId: 'Your_android_messaging_sender_id',
+    projectId: 'Your_android_project_id',
+    storageBucket: 'Your_android_storage_bucket',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDSBjN0Xw1RZwpEisWGgyl7GiN2qBtOQhg',
-    appId: '1:192145375261:ios:400d4745054d52845186f4',
-    messagingSenderId: '192145375261',
-    projectId: 'ymca-all-in-one',
-    storageBucket: 'ymca-all-in-one.appspot.com',
-    iosBundleId: 'com.shubham.ymcaAllInOne',
+    apiKey: 'Your_ios_api_key',
+    appId: 'Your_ios_app_id',
+    messagingSenderId: 'Your_ios_messaging_sender_id',
+    projectId: 'Your_ios_project_id',
+    storageBucket: 'Your_ios_storage_bucket',
+    iosBundleId: 'Your_ios_bundle_id',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDSBjN0Xw1RZwpEisWGgyl7GiN2qBtOQhg',
-    appId: '1:192145375261:ios:0dfcd53d03bee42c5186f4',
-    messagingSenderId: '192145375261',
-    projectId: 'ymca-all-in-one',
-    storageBucket: 'ymca-all-in-one.appspot.com',
-    iosBundleId: 'com.shubham.ymcaAllInOne.RunnerTests',
+    apiKey: 'Your_macos_api_key',
+    appId: 'Your_macos_app_id',
+    messagingSenderId: 'Your_macos_messaging_sender_id',
+    projectId: 'Your_macos_project_id',
+    storageBucket: 'Your_macos_storage_bucket',
+    iosBundleId: 'Your_macos_bundle_id',
   );
 }
