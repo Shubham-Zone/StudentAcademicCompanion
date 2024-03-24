@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "192145375261",
-    "project_id": "ymca-all-in-one",
-    "storage_bucket": "ymca-all-in-one.appspot.com"
+    "project_number": "your key",
+    "project_id": "your key",
+    "storage_bucket": "your key"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:192145375261:android:624090de7a25ff125186f4",
+        "mobilesdk_app_id": "your key",
         "android_client_info": {
-          "package_name": "com.shubham.ymca_all_in_one"
+          "package_name": "your key"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDMNFVrgQcxOGwKaefuDWeO-sHdjvaQNHU"
+          "current_key": "your key"
         }
       ],
       "services": {
