@@ -40,7 +40,7 @@ class _SubjectsState extends State<Subjects> {
             child: Text(
               "Computer Applications Previous Year Papers",
               textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.headline6,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
           ),
           Expanded(

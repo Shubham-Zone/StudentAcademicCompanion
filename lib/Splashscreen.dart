@@ -30,14 +30,15 @@ class _SplashScreenState extends State<SplashScreen>
     Timer(const Duration(seconds: 4), () async {
       final prefs = await SharedPreferences.getInstance();
       final bool? repeat = prefs.getBool('repeat');
-      if (repeat == true) {
-        if(mounted){
-          Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>const Index()));
-        }
+      // if (repeat == true) {
+      //   if(mounted){
+      //     Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>const Index()));
+      //   }
 
-      } else {
-        if(mounted) Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const Phone()));
-      }
+      // } else {
+      //   if(mounted) Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const Phone()));
+      // }
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>const Index()));
     });
     super.initState();
   }

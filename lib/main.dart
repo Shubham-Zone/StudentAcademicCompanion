@@ -28,10 +28,10 @@ class MyApp extends StatelessWidget {
         appBarTheme: const AppBarTheme(
           backgroundColor: Colors.indigo,
         ),
-        // textTheme: const TextTheme(
-        //   headline6: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.indigo),
-        //   subtitle1: TextStyle(fontWeight: FontWeight.bold, fontSize: 16, color: Colors.black),
-        // ),
+        textTheme: const TextTheme(
+          titleLarge: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.indigo),
+          titleMedium: TextStyle(fontWeight: FontWeight.bold, fontSize: 16, color: Colors.black),
+        ),
         iconTheme: const IconThemeData(color: Colors.indigo, size: 60),
       ),
       home: const SplashScreen(),
